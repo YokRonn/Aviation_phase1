@@ -1,0 +1,2387 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Airplane_Injuries_Model)' inline='true' name='federated.13tbd960qe5dok12mvzxh1vsl39u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Airplane_Injuries_Model' name='excel-direct.02o0zlr0xc29n31fc3tn21nvbpk0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Ronnie/Desktop/Project/Airplane_Injuries_Model.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.02o0zlr0xc29n31fc3tn21nvbpk0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K3528:no:A1:K3528:0' header='yes' outcome='2'>
+            <column datatype='string' name='Model' ordinal='0' />
+            <column datatype='integer' name='total_fatal_injuries' ordinal='1' />
+            <column datatype='integer' name='total_serious_injuries' ordinal='2' />
+            <column datatype='integer' name='total_minor_injuries' ordinal='3' />
+            <column datatype='integer' name='total_uninjured' ordinal='4' />
+            <column datatype='integer' name='total_events' ordinal='5' />
+            <column datatype='integer' name='aircraft_destroyed' ordinal='6' />
+            <column datatype='real' name='Rate_fatal_injury' ordinal='7' />
+            <column datatype='real' name='Rate_serious_injury' ordinal='8' />
+            <column datatype='real' name='Rate_minor_injury' ordinal='9' />
+            <column datatype='real' name='Rate_Uninjured' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.02o0zlr0xc29n31fc3tn21nvbpk0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K3528:no:A1:K3528:0' header='yes' outcome='2'>
+            <column datatype='string' name='Model' ordinal='0' />
+            <column datatype='integer' name='total_fatal_injuries' ordinal='1' />
+            <column datatype='integer' name='total_serious_injuries' ordinal='2' />
+            <column datatype='integer' name='total_minor_injuries' ordinal='3' />
+            <column datatype='integer' name='total_uninjured' ordinal='4' />
+            <column datatype='integer' name='total_events' ordinal='5' />
+            <column datatype='integer' name='aircraft_destroyed' ordinal='6' />
+            <column datatype='real' name='Rate_fatal_injury' ordinal='7' />
+            <column datatype='real' name='Rate_serious_injury' ordinal='8' />
+            <column datatype='real' name='Rate_minor_injury' ordinal='9' />
+            <column datatype='real' name='Rate_Uninjured' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K3528:no:A1:K3528:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_fatal_injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_fatal_injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_fatal_injuries</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_serious_injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_serious_injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_serious_injuries</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_minor_injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_minor_injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_minor_injuries</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_uninjured</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_uninjured]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_uninjured</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_events</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_events]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_events</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aircraft_destroyed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[aircraft_destroyed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>aircraft_destroyed</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rate_fatal_injury</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rate_fatal_injury]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rate_fatal_injury</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rate_serious_injury</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rate_serious_injury]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rate_serious_injury</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rate_minor_injury</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rate_minor_injury]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rate_minor_injury</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rate_Uninjured</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rate_Uninjured]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rate_Uninjured</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Rate Uninjured' datatype='real' name='[Rate_Uninjured]' role='measure' type='quantitative' />
+      <column caption='Rate fatal injury' datatype='real' name='[Rate_fatal_injury]' role='measure' type='quantitative' />
+      <column caption='Rate minor injury' datatype='real' name='[Rate_minor_injury]' role='measure' type='quantitative' />
+      <column caption='Rate serious injury' datatype='real' name='[Rate_serious_injury]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_3B503828D094461EA49F4E84843AA397]' role='measure' type='quantitative' />
+      <column caption='Aircraft Destroyed' datatype='integer' name='[aircraft_destroyed]' role='measure' type='quantitative' />
+      <column caption='Total Events' datatype='integer' name='[total_events]' role='measure' type='quantitative' />
+      <column caption='Total Fatal Injuries' datatype='integer' name='[total_fatal_injuries]' role='measure' type='quantitative' />
+      <column caption='Total Minor Injuries' datatype='integer' name='[total_minor_injuries]' role='measure' type='quantitative' />
+      <column caption='Total Serious Injuries' datatype='integer' name='[total_serious_injuries]' role='measure' type='quantitative' />
+      <column caption='Total Uninjured' datatype='integer' name='[total_uninjured]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Ronnie/AppData/Local/Temp/TableauTemp/#TableauTemp_09ekgvr0ka33c81ao8sk80upxcwm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/09/2024 03:32:55 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Model</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Model]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Model</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3527</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_fatal_injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_fatal_injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_fatal_injuries</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_serious_injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_serious_injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_serious_injuries</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_minor_injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_minor_injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_minor_injuries</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_uninjured</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_uninjured]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_uninjured</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>187</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_events</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_events]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_events</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>77</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>aircraft_destroyed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[aircraft_destroyed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>aircraft_destroyed</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rate_fatal_injury</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rate_fatal_injury]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rate_fatal_injury</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>210</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rate_serious_injury</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rate_serious_injury]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rate_serious_injury</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>170</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rate_minor_injury</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rate_minor_injury]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rate_minor_injury</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>134</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rate_Uninjured</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rate_Uninjured]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rate_Uninjured</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>326</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3B503828D094461EA49F4E84843AA397]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Uganda&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_3B503828D094461EA49F4E84843AA397'>
+            <properties context=''>
+              <relation connection='excel-direct.02o0zlr0xc29n31fc3tn21nvbpk0' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K3528:no:A1:K3528:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Model' ordinal='0' />
+                  <column datatype='integer' name='total_fatal_injuries' ordinal='1' />
+                  <column datatype='integer' name='total_serious_injuries' ordinal='2' />
+                  <column datatype='integer' name='total_minor_injuries' ordinal='3' />
+                  <column datatype='integer' name='total_uninjured' ordinal='4' />
+                  <column datatype='integer' name='total_events' ordinal='5' />
+                  <column datatype='integer' name='aircraft_destroyed' ordinal='6' />
+                  <column datatype='real' name='Rate_fatal_injury' ordinal='7' />
+                  <column datatype='real' name='Rate_serious_injury' ordinal='8' />
+                  <column datatype='real' name='Rate_minor_injury' ordinal='9' />
+                  <column datatype='real' name='Rate_Uninjured' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Aviation_CleanData)' inline='true' name='federated.1quvs1c1wdzwa21a44t261xbua8a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Aviation_CleanData' name='excel-direct.1i2yngh0wefdqh1cqcuhe1pjoj9l'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Ronnie/Desktop/Project/Aviation_CleanData.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1i2yngh0wefdqh1cqcuhe1pjoj9l' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Event.Id' ordinal='0' />
+            <column datatype='string' name='Investigation.Type' ordinal='1' />
+            <column datatype='string' name='Accident.Number' ordinal='2' />
+            <column datatype='date' name='Event.Date' ordinal='3' />
+            <column datatype='string' name='Aircraft.damage' ordinal='4' />
+            <column datatype='string' name='Aircraft.Category' ordinal='5' />
+            <column datatype='string' name='Make' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Amateur.Built' ordinal='8' />
+            <column datatype='string' name='Purpose.of.flight' ordinal='9' />
+            <column datatype='integer' name='Total.Fatal.Injuries' ordinal='10' />
+            <column datatype='integer' name='Total.Serious.Injuries' ordinal='11' />
+            <column datatype='integer' name='Total.Minor.Injuries' ordinal='12' />
+            <column datatype='integer' name='Total.Uninjured' ordinal='13' />
+            <column datatype='string' name='Weather.Condition' ordinal='14' />
+            <column datatype='string' name='Broad.phase.of.flight' ordinal='15' />
+            <column datatype='string' name='Decade Range' ordinal='16' />
+            <column datatype='integer' name='Event.Year' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1i2yngh0wefdqh1cqcuhe1pjoj9l' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Event.Id' ordinal='0' />
+            <column datatype='string' name='Investigation.Type' ordinal='1' />
+            <column datatype='string' name='Accident.Number' ordinal='2' />
+            <column datatype='date' name='Event.Date' ordinal='3' />
+            <column datatype='string' name='Aircraft.damage' ordinal='4' />
+            <column datatype='string' name='Aircraft.Category' ordinal='5' />
+            <column datatype='string' name='Make' ordinal='6' />
+            <column datatype='string' name='Model' ordinal='7' />
+            <column datatype='string' name='Amateur.Built' ordinal='8' />
+            <column datatype='string' name='Purpose.of.flight' ordinal='9' />
+            <column datatype='integer' name='Total.Fatal.Injuries' ordinal='10' />
+            <column datatype='integer' name='Total.Serious.Injuries' ordinal='11' />
+            <column datatype='integer' name='Total.Minor.Injuries' ordinal='12' />
+            <column datatype='integer' name='Total.Uninjured' ordinal='13' />
+            <column datatype='string' name='Weather.Condition' ordinal='14' />
+            <column datatype='string' name='Broad.phase.of.flight' ordinal='15' />
+            <column datatype='string' name='Decade Range' ordinal='16' />
+            <column datatype='integer' name='Event.Year' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10001:no:A1:R10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Event.Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigation.Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Investigation.Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Investigation.Type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accident.Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Accident.Number]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Accident.Number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Event.Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aircraft.damage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Aircraft.damage]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Aircraft.damage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aircraft.Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Aircraft.Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Aircraft.Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amateur.Built</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Amateur.Built]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Amateur.Built</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Purpose.of.flight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Purpose.of.flight]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Purpose.of.flight</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Fatal.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Fatal.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Fatal.Injuries</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Serious.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Serious.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Serious.Injuries</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Minor.Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Minor.Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Minor.Injuries</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total.Uninjured</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total.Uninjured]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total.Uninjured</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather.Condition</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Weather.Condition]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Weather.Condition</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Broad.phase.of.flight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Broad.phase.of.flight]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Broad.phase.of.flight</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Decade Range</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Decade Range]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Decade Range</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUG_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Event.Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Year</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Event.Year]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total.Uninjured]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]' role='measure' type='quantitative' />
+      <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total.Uninjured]' derivation='Sum' name='[sum:Total.Uninjured:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Ronnie/AppData/Local/Temp/TableauTemp/#TableauTemp_0fx3rvv1mlxk6z1aa4pav1onpmn3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/09/2024 03:33:21 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Event.Id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Event.Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22794</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Investigation.Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Investigation.Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Investigation.Type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Accident.Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Accident.Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Accident.Number</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22794</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Event.Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Event.Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Date</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>6041</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aircraft.damage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Aircraft.damage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aircraft.damage</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aircraft.Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Aircraft.Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aircraft.Category</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Make</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Make]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Make</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>481</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Model</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Model]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Model</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1970</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Amateur.Built</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Amateur.Built]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Amateur.Built</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Purpose.of.flight</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Purpose.of.flight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Purpose.of.flight</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Fatal.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Fatal.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Fatal.Injuries</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Serious.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Serious.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Serious.Injuries</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Minor.Injuries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Minor.Injuries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Minor.Injuries</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total.Uninjured</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total.Uninjured]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total.Uninjured</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>189</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Weather.Condition</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Weather.Condition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Weather.Condition</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Broad.phase.of.flight</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Broad.phase.of.flight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Broad.phase.of.flight</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Decade Range</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Decade Range]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Decade Range</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Event.Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Event.Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Year</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Fatal.Injuries:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1quvs1c1wdzwa21a44t261xbua8a]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Uganda&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_5F250BE86F7E4969B15F2D79ED97FDFB'>
+            <properties context=''>
+              <relation connection='excel-direct.1i2yngh0wefdqh1cqcuhe1pjoj9l' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Event.Id' ordinal='0' />
+                  <column datatype='string' name='Investigation.Type' ordinal='1' />
+                  <column datatype='string' name='Accident.Number' ordinal='2' />
+                  <column datatype='date' name='Event.Date' ordinal='3' />
+                  <column datatype='string' name='Aircraft.damage' ordinal='4' />
+                  <column datatype='string' name='Aircraft.Category' ordinal='5' />
+                  <column datatype='string' name='Make' ordinal='6' />
+                  <column datatype='string' name='Model' ordinal='7' />
+                  <column datatype='string' name='Amateur.Built' ordinal='8' />
+                  <column datatype='string' name='Purpose.of.flight' ordinal='9' />
+                  <column datatype='integer' name='Total.Fatal.Injuries' ordinal='10' />
+                  <column datatype='integer' name='Total.Serious.Injuries' ordinal='11' />
+                  <column datatype='integer' name='Total.Minor.Injuries' ordinal='12' />
+                  <column datatype='integer' name='Total.Uninjured' ordinal='13' />
+                  <column datatype='string' name='Weather.Condition' ordinal='14' />
+                  <column datatype='string' name='Broad.phase.of.flight' ordinal='15' />
+                  <column datatype='string' name='Decade Range' ordinal='16' />
+                  <column datatype='integer' name='Event.Year' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (Accident_Rates_Year)' inline='true' name='federated.15mh17010t00l910u391g1ti8tm2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Accident_Rates_Year' name='excel-direct.1ooy4hv0l9bfqf15fk6r61cqmoja'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Ronnie/Desktop/Project/Accident_Rates_Year.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ooy4hv0l9bfqf15fk6r61cqmoja' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:F43:no:A1:F43:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Event.Year' ordinal='0' />
+            <column datatype='integer' name='Total_Accidents' ordinal='1' />
+            <column datatype='integer' name='Fatal_Accidents' ordinal='2' />
+            <column datatype='integer' name='Airplane_Loss_Accidents' ordinal='3' />
+            <column datatype='real' name='Fatal_Accident_Rate' ordinal='4' />
+            <column datatype='integer' name='Airplane_Loss_Accidents_Rate' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ooy4hv0l9bfqf15fk6r61cqmoja' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:F43:no:A1:F43:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Event.Year' ordinal='0' />
+            <column datatype='integer' name='Total_Accidents' ordinal='1' />
+            <column datatype='integer' name='Fatal_Accidents' ordinal='2' />
+            <column datatype='integer' name='Airplane_Loss_Accidents' ordinal='3' />
+            <column datatype='real' name='Fatal_Accident_Rate' ordinal='4' />
+            <column datatype='integer' name='Airplane_Loss_Accidents_Rate' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F43:no:A1:F43:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event.Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Event.Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Event.Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Accidents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Accidents]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total_Accidents</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatal_Accidents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fatal_Accidents]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fatal_Accidents</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Airplane_Loss_Accidents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Airplane_Loss_Accidents]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Airplane_Loss_Accidents</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatal_Accident_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fatal_Accident_Rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fatal_Accident_Rate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Airplane_Loss_Accidents_Rate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Airplane_Loss_Accidents_Rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Airplane_Loss_Accidents_Rate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Airplane Loss Accidents' datatype='integer' name='[Airplane_Loss_Accidents]' role='measure' type='quantitative' />
+      <column caption='Airplane Loss Accidents Rate' datatype='integer' name='[Airplane_Loss_Accidents_Rate]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Event.Year]' role='dimension' type='quantitative' />
+      <column caption='Fatal Accident Rate' datatype='real' name='[Fatal_Accident_Rate]' role='measure' type='quantitative' />
+      <column caption='Fatal Accidents' datatype='integer' name='[Fatal_Accidents]' role='measure' type='quantitative' />
+      <column caption='Total Accidents' datatype='integer' name='[Total_Accidents]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Ronnie/AppData/Local/Temp/TableauTemp/#TableauTemp_0510ykt0qs01si1a4bfrr12n9yzz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/09/2024 03:33:45 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Event.Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Event.Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Event.Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Accidents</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Accidents]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Accidents</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fatal_Accidents</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Fatal_Accidents]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fatal_Accidents</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Airplane_Loss_Accidents</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Airplane_Loss_Accidents]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Airplane_Loss_Accidents</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fatal_Accident_Rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Fatal_Accident_Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fatal_Accident_Rate</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Airplane_Loss_Accidents_Rate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Airplane_Loss_Accidents_Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Airplane_Loss_Accidents_Rate</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_FC1F7266B03448099B99F8ABA4A9E06C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Uganda&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_FC1F7266B03448099B99F8ABA4A9E06C'>
+            <properties context=''>
+              <relation connection='excel-direct.1ooy4hv0l9bfqf15fk6r61cqmoja' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:F43:no:A1:F43:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Event.Year' ordinal='0' />
+                  <column datatype='integer' name='Total_Accidents' ordinal='1' />
+                  <column datatype='integer' name='Fatal_Accidents' ordinal='2' />
+                  <column datatype='integer' name='Airplane_Loss_Accidents' ordinal='3' />
+                  <column datatype='real' name='Fatal_Accident_Rate' ordinal='4' />
+                  <column datatype='integer' name='Airplane_Loss_Accidents_Rate' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Number of Uninjured by Airplane model</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Aviation_CleanData)' name='federated.1quvs1c1wdzwa21a44t261xbua8a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1quvs1c1wdzwa21a44t261xbua8a'>
+            <column datatype='string' name='[Accident.Number]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total.Uninjured]' role='measure' type='quantitative' />
+            <column-instance column='[Accident.Number]' derivation='CountD' name='[ctd:Accident.Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total.Uninjured]' derivation='Sum' name='[sum:Total.Uninjured:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Model:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1quvs1c1wdzwa21a44t261xbua8a].[ctd:Accident.Number:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Fatal.Injuries:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b6992d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Model:nk]</rows>
+        <cols>([federated.1quvs1c1wdzwa21a44t261xbua8a].[ctd:Accident.Number:qk] + ([federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk] + [federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Fatal.Injuries:qk]))</cols>
+      </table>
+      <simple-id uuid='{42A302EE-82A5-4911-8E53-9A5AECB352E6}' />
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Number of Uninjured by Airplane model</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Aviation_CleanData)' name='federated.1quvs1c1wdzwa21a44t261xbua8a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1quvs1c1wdzwa21a44t261xbua8a'>
+            <column datatype='string' name='[Accident.Number]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total.Fatal.Injuries]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total.Uninjured]' role='measure' type='quantitative' />
+            <column-instance column='[Accident.Number]' derivation='CountD' name='[ctd:Accident.Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total.Fatal.Injuries]' derivation='Sum' name='[sum:Total.Fatal.Injuries:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total.Uninjured]' derivation='Sum' name='[sum:Total.Uninjured:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Make:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1quvs1c1wdzwa21a44t261xbua8a].[ctd:Accident.Number:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Fatal.Injuries:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b6992d' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Make:nk]</rows>
+        <cols>([federated.1quvs1c1wdzwa21a44t261xbua8a].[ctd:Accident.Number:qk] + ([federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk] + [federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Fatal.Injuries:qk]))</cols>
+      </table>
+      <simple-id uuid='{7403744A-44D7-4DBE-A62B-9F339E8F15CA}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Airplane_Injuries_Model)' name='federated.13tbd960qe5dok12mvzxh1vsl39u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13tbd960qe5dok12mvzxh1vsl39u'>
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13tbd960qe5dok12mvzxh1vsl39u].[none:Model:nk]'>
+            <groupfilter function='level-members' level='[none:Model:nk]' user:ui-manual-selection='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.13tbd960qe5dok12mvzxh1vsl39u].[none:Model:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='395' />
+                <format attr='maxwidth' value='395' />
+                <format attr='minheight' value='577' />
+                <format attr='maxheight' value='577' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='395' />
+                <format attr='maxwidth' value='395' />
+                <format attr='minheight' value='577' />
+                <format attr='maxheight' value='577' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9C3C2E53-A4B3-4794-B71B-6EEB7A9129F0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='46'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <node-selection select-tuples='false'>
+            <oriented-node-reference orientation='horizontal'>
+              <node-reference>
+                <axis>[federated.1quvs1c1wdzwa21a44t261xbua8a].[ctd:Accident.Number:qk]</axis>
+              </node-reference>
+              <page-reference />
+            </oriented-node-reference>
+          </node-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[:Measure Names]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Accident.Number:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Aircraft.Category:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Aircraft.damage:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Broad.phase.of.flight:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Decade Range:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Event.Id:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Event.Year:qk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Make:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Model:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Purpose.of.flight:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Weather.Condition:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{936F6760-2A3B-486B-A84D-F70D637DA3DA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='48'>
+            <card type='columns' />
+          </strip>
+          <strip size='48'>
+            <card type='rows' />
+          </strip>
+          <strip size='46'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[:Measure Names]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Accident.Number:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Aircraft.Category:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Aircraft.damage:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Broad.phase.of.flight:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Decade Range:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Event.Id:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Event.Year:qk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Make:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Model:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Purpose.of.flight:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[none:Weather.Condition:nk]</field>
+            <field>[federated.1quvs1c1wdzwa21a44t261xbua8a].[sum:Total.Uninjured:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5EACE1D0-C001-4D8A-8C6A-8FC6BE2090A2}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='typeinlist' param='[federated.13tbd960qe5dok12mvzxh1vsl39u].[none:Model:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13tbd960qe5dok12mvzxh1vsl39u].[sum:aircraft_destroyed:qk]</field>
+            <field>[federated.15mh17010t00l910u391g1ti8tm2].[none:Event.Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7BE265D7-07A5-42E0-93F6-DC5F002C7409}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1 (2)' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAFq0lEQVR4nO3aWXPaZhiG4UcgFrNjsBPb2EmXg/7/f9LDzjRtEu812NhYAgSSepBOp8Tu
+      TNNQM/S5ryMQy7ye0T18+qwgz/NcgKnCpgcANmktAcRxvI6vAV7cWgJIkmQdXwO8OJZAsEYA
+      sBZuegDga5y+f6csCNXbf63GTuUffSYaD3V1P9dBr0kA2G55oaTjwZF+fverBq/7Gt3dq97u
+      a/owVLLMdTQ41PnHMymQ9o9OVCsXdXb6XkHrSPPplCUQtl+hUFQpLCqZTpRXWqqHiVRu6+So
+      p8uLaxUrdb05PtBoOFIQBOr193R0eKB59EgA2H7LeaxFKqkQqt1sqBiWlMxiTaNIpWpVWZZp
+      GkcKy0+XSASArVYJA12PJvru27eqN7uqVYoKy3XtdaqKlmUd9JuKHsaaJIEO+m1JUqu7p0pR
+      6uy/VrCOWyHG47E6nc5X/zHA2mVL3T/O1W7Vn32Zi2D8vxVCtVt/f5qzBIK1P9OI4/hf39IQ
+      RdHaBgJeEtcAsMYSCNYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYIANYI
+      ANYIANYIANYIANYIANYIANYIANYIANYIANYIANbCvz55uL3R7SRWrdHWXq+jYFNTAS9kJYA4
+      nupgcKKHqw+6fagqn9/pMVqq161peDdRu9tXNp9oOluoWK3rYL9HJNhqzyyBAnV2dzWNI11f
+      3WhwMtDw9kFv37zR/eg3RbOFBsfHWkwnUp6//MTAGj0TQK7hzVCNZkPNdkdhIVCepVqmS2V5
+      IOW5sixTmnLyY/utBNBsNnR1fqra7mu16xX1ej1J0snxQNdX1zo8PlaeLXRxcaFXh0cKAhZA
+      2G5Bnn/ZOuZuPFa301k5Nh6P1fnsGLANvngb9POTH9hmTwK4v73R7XiixWKxcnweT5Sknx6n
+      i7niWfIiAwL/pZUA5tNIv3w4UxgGiqJYeZ5pNLxRsswUPdxqvvz0nuvLc42j2aZmBtZmJYBS
+      uaJWq6Wdakmj4VgXH9+rWK7q9PT00xuyuU4vhmrUdzYxK7B2K/8IKxRDlUqhSmFRkpTmger1
+      uoI8Vzq9U54mKpR3FBZzabmReYG1Cj8/0O3uSiqov9dVfaeky/Mz1Vpd1Vu7KlQa6kwjjeNM
+      rW51A+MC6/XF26DPYRsU24q7QWFtJYA8XbC9CSsrAWRJrOHtvR4mj8pzaT6LFcUz5cqUJIni
+      6VTpMvnjde4FwvZ7chE8mUxUziItlkuNRmPVwkzZq75++vGdvvnhe12enardauhyttThHut+
+      bLcn1wCd3V21mnXNHu8VzxMt0lTLNNX+wUC9Tk3R46OiWaI8TTcxL7BWq78AhaJKoVQoSvV2
+      X4vFlYJiqGq5rHklkFTU/l5P81Sq1dgGxfZjGxTW2AaFNQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKA
+      NQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKANQKAtd8Bto+I
+      a3DEvxcAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
